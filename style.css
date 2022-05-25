@@ -1,0 +1,143 @@
+/*Variaveis*/
+
+:root {
+    --bg-color:#ebebeb;
+    --input-placeholder:#d4d4d4;
+    --input-bg:#5d160ea2;
+    --texto-destaque:#FFFF;
+    --marrom-destaque:#3b0702;
+    --background-contato:#Eaf2fd;
+}
+
+/*Normalize*/
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Releway', sans-serif;
+    background-color: var(--bg-color);
+}
+
+/*Padrão de projeto*/
+textarea:focus, input:focus {
+    box-shadow:0;
+    border: 0, none;
+    outline: 0;
+}
+
+input::placeholder{
+    color:var(--input-placeholder);
+    padding:2%;
+}
+
+textarea::placeholder{
+    color:var(--input-placeholder);
+    padding:2%;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+button{
+    cursor:pointer;
+}
+
+/*Header Geral*/
+header{
+    padding: 32.5px 154px;
+    background-color: var(--texto-destaque);
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+
+/*Divs do Header*/
+.logo-busca{
+    margin-left: 175px;
+    width: 601px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+.logo img{
+    height: 29.17px;
+    width: 40.02px;
+}
+.logo p{
+    font-size: 26px;
+    font-weight: bolder;
+}
+.logo .logo-marrom{
+    margin-left: 10px;
+    color: var(--marrom-destaque);
+}
+.logo-busca input{
+    margin-left: 10%;
+    width: 393px;
+    border-radius: 30px;
+    padding: 1% 3%;
+    border: none;
+    background-color: var(--input-bg);
+    background-image: url("assets/lupa.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 248px;
+
+}
+.login{
+    width: 600px;
+    display: flex;
+    justify-content: end;
+    
+}
+.login button{
+    width: 182px;
+    height: 51px;
+    background: none;
+    border: solid 1px var(--marrom-destaque);
+    color: var(--marrom-destaque);
+    text-transform: uppercase;
+}
+/*Banner Promocional*/
+.destaque{
+    height:352px;
+    background-image: url("assets/choco5.png");    
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    padding: 60px;    
+}
+.banner{
+    width: 751px;
+    height: 320px;
+    padding-left: 300px;
+    flex-direction: column;
+    justify-content: end;
+
+}
+.banner h1{
+    color: var(--texto-destaque);
+    font-size: 52px;
+    font-weight: bold;
+}
+.banner h4{
+    color: var(--texto-destaque);
+    font-size: 22px;
+    font-weight: bold;
+}
+.banner button{
+    background-color: var(--marrom-destaque);
+    border: none;
+    color: var(--texto-destaque);
+    height: 51px;
+    width: 130px;
+}
