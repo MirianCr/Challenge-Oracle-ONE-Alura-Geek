@@ -108,6 +108,8 @@ nav{
     color: var(--marrom-destaque);
     text-transform: uppercase;
 }
+
+
 /*Banner Promocional*/
 .destaque{
     height:352px;
@@ -140,4 +142,128 @@ nav{
     color: var(--texto-destaque);
     height: 51px;
     width: 130px;
+}
+
+/*Sessão de produtos*/
+
+.geral-prods{
+    display: flex;
+    flex-direction: column;
+    width:1136px;
+    margin: 0 auto;
+}
+
+/*Divs na Sessão produtos*/
+
+.sessao-produtos{
+    display: flex;
+    height: 365px;
+    width: 1136px;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+.sessao-produtos-cacau{
+    display: flex;
+    height: 365px;
+    width: 1136px;
+    justify-content: space-between;
+    margin-bottom: 148px;
+}
+.produto img{
+    width:200px;
+    padding: 3px;
+}
+.prod-titulo{
+    display: flex;
+    justify-content: space-between;   
+
+}
+.titulo{
+font-size: 32px;
+font-weight: bold;
+}
+.mostrar-mais{
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+/*Form Contato*/
+.contato{
+    background-color: var(--background-contato);
+    display: flex;
+    height: 365px;
+    justify-content: center;
+    padding: 64px;
+}
+.referencia{
+    display: flex;
+    width: 200px;
+    margin: 20px 30px 0 0;
+
+
+}
+.referencia img{
+    width: 71px;  
+    height: 42px;
+}  
+
+
+
+.referencia p{
+    font-size: 26px;
+    font-weight: bolder;
+    color: var(--marrom-destaque);
+    margin-top: 5px;
+    margin-left: 6px;
+}
+
+.links-uteis{
+    line-height: 40px;
+    width: 200px;
+    margin-right: 100px;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.form p{
+    
+    font-weight: bold;
+    padding-left: 250px;
+    margin-bottom: 38px;
+    color:var(--marrom-destaque);
+}
+.form input{
+    width: 400px;
+    padding: 1em;
+    height: 56px;
+    border:transparent;
+    margin-bottom: 20px;
+}
+form div + div {
+    margin-top: 1em;
+}
+.form textarea{
+    font-family: 'Releway', sans-serif;
+    border: transparent;
+    color: var(--texto-destaque);
+    margin-bottom: 20px;
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+.form button{
+    background-color: var(--marrom-destaque);
+    border: none;
+    color: var(--texto-destaque);
+    height: 51px;
+    width: 180px;
+}
+label {
+   
+    display: inline-block;
+    width: 90px;
+    text-align: right;
 }
