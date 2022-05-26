@@ -44,6 +44,8 @@ a{
 
 button{
     cursor:pointer;
+    border: gray;
+font-weight: bold;
 }
 
 /*Header Geral*/
@@ -286,3 +288,36 @@ footer .linke {
     bottom: 0;
     left: 0;
   }
+/*login*/
+.formDoLogin{
+    padding: 33px;
+    margin-left: 42%;
+    margin-bottom: 184px;
+    width: 411px;
+    
+    height: 43px;
+    border: transparent;
+    margin-bottom: 1px;
+    color: var(--marrom-destaque);
+  
+}
+.buttonDologin{
+    cursor: pointer;
+    background-color: var(--marrom-destaque);
+    border: none;
+    color: var(--texto-destaque);
+    height: 40px;
+    width: 282px;
+}
+.contatoLogin{
+    background-color: var(--background-contato);    
+    height: 365px;
+    justify-content: center;
+    padding: 64px;
+}
+#email, #senha{
+    padding: 22px;
+height: 5px;
+width: 239px;
+border: none;
+}
